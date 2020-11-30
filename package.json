@@ -1,0 +1,35 @@
+{
+  "name": "callerappserver",
+  "version": "1.0.0",
+  "description": "A token server demo for Agora Applications using NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGadri/CallerAppServer.git"
+  },
+  "keywords": [
+    "Agora",
+    "Token",
+    "Generation",
+    "Server",
+    "Node",
+    "Js"
+  ],
+  "author": "Andrew K. Gadri-Akrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheGadri/CallerAppServer/issues"
+  },
+  "homepage": "https://github.com/TheGadri/CallerAppServer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
